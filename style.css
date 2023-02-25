@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background-color: #fff;
+    /* justify-self: center; */
+}
+/*  */
+.date-locai{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    /* margin: auto; */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* background-color: white; */
+
+}
+.clock-icon{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 10px;
+}
+.clock-img{
+    justify-self: right;
+}
+.clock-tex {
+    padding-top: 10px;
+}
+.clock-tex a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.vegan{
+     justify-self: center;
+     padding-top: 10px;
+}
+.vegan a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black; 
+}
+.vegan span a{
+    font-size: 23px;
+    color: #20AF2E; 
+}
+.map-icon{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.map-img{
+    justify-self: right;
+}
+.map-tex{
+    padding-top: 10px;
+}
+.map-tex a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+/*  */
+/*  */
+.top-menu{
+    background-color: #19B028;
+}
+.main-menu nav ul{
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns:repeat(7,1fr);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    margin: auto;  
+}
+.main-menu nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    width: 80%;
+}
+/*  */
+/*  */
+.restauent{
+    background-image: url(./img/Rectangle\ 2.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.top-food-fund{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.food{
+    width: 80%;
+    justify-self: right;
+}
+.food h1{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+.food p{
+    padding-top: 20px;
+}
+.food a{
+    text-decoration: none;
+    color:#b0aeae;
+    background-color: black;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+/*  */
+/*  */
+.vegan-menu{
+    text-align: center;
+    padding-top: 20px;
+}
+.vegan-menu h1{
+    font-size: 40px;
+    margin: 0;
+}
+.s-s-main-design{
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+.main-soup{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 85%;
+    margin: auto;
+    gap: 10px;
+}
+/*  */
+.starter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+}
+.starter-logo{
+    justify-self: right;
+}
+.starter-tex p{
+    font-size: 18px;
+    /* padding: 0; */
+    margin: 5px;
+    padding-top: 15px;
+}
+.starter-tex a{
+    text-decoration: none;
+    color: #6e6c6c;
+    font-size: 14px;
+}
+.dolar{
+    justify-self: right;
+    padding-top: 20px;
+    color: red;
+}
+.soup{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+}
+.soup-logo{
+    justify-self: right;
+}
+.main-course{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+}
+.course-logo{
+    justify-self: right;
+}
+
+
+
